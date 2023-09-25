@@ -1,0 +1,174 @@
+/* Background Image */
+
+.bgimage{
+    background-image: url(../img/MicrosoftTeams-image\ \(1\).png);
+    padding: 10px;
+    color: rgb(0, 255, 200);
+}
+
+.bgimg-naocentral, .bgimg-central{
+    background-image: url(../img/senaclargo13.jpg);
+    width: 400px;
+    height: 400px;
+}
+
+.bgimg-central{
+    background-position: center ;
+    background-size: cover;
+}
+
+/* Altura e largura */
+
+.altura-largura{
+    height: 500px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.altura-largura-nova{
+    height: 200px;
+    background-color: #999;
+}
+
+/* Padding */
+
+.sem-padding{
+    background-color: aqua;
+    padding: none;
+    width: 200px;
+    height: 200px;
+}
+
+.com-padding{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+/* padding por lados  */
+
+.padding-lados{
+    background-color: crimson;
+    color: white;
+    padding-top: 10px ;
+    padding-left: 150px;
+    padding-right: 5px;
+    padding-bottom: 40px;
+}
+
+/* Shorthand Properties / Propriedades Abreviadas */
+
+.shorthand-padding{
+    background-color: #534747;
+    padding: 6px 12px 18px 24px; 
+}
+.shorthand-padding-2{
+    background-color: #555;
+    padding: 10px 20px; 
+    color: aqua; /*é o mesmo que 10px 20px 10px 20px*/
+}
+
+/* Border */
+
+.border{
+    border: 5px solid blue;
+    padding: 10px;
+}
+.border-2{
+    border: 2px dotted green;
+    padding: 25px;
+}
+
+/* Borda individual por lados */
+
+.borda-esquerda{
+    border-left: 10px solid yellowgreen;
+    background-color: #111;
+    color: #fff;
+    padding: 25px;
+}
+
+.borda-inferior{
+    border-bottom: 10px solid yellowgreen;
+    background-color: #111;
+    color: #fff;
+    padding: 25px ;
+}
+
+/*  Borda Superior e Direita */
+.borda-superior{
+    border-top: 10px dotted red;
+    background-color: black;
+    color: #fff;
+    padding: 25px;
+}
+
+.borda-direita{
+    border-right:10px dashed pink;
+    background-color: cornflowerblue;
+    color: pink;
+    padding: 25px;
+}
+
+/* Borda diferente em todos os lados simultaneamente */
+
+.borda-total{
+    border-left: 10px double rosybrown;
+    border-right: 5px solid yellow;
+    border-top: 5px dotted salmon;
+    border-bottom: 5px dashed orange;
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+/* Borda arredondado */
+
+.paragrafo-arredondado{
+    border: 5px solid red;
+    background-color: burlywood;
+    color:white;
+    padding: 20px;
+    border-radius: 20px;  
+    margin-bottom: 10px;
+}
+
+.paragrafo-arredondado-2{
+    background-color:burlywood ;
+    color:royalblue;
+    padding: 20px;
+    border-radius: 20px; 
+}
+
+/* Margem */
+
+.margem{
+    margin:10px;
+    background-color: darkblue;
+    color: yellow;
+}
+
+.margem-no-topo{
+    margin-top: 70px ;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+.margem-diferenciada{
+    background-color: cornflowerblue;
+    margin: 7px 10px 9px 30px;
+}
+
+/* Box Model */
+
+.box-model{
+    background-color: aqua;
+    color: black;
+    width: 200px;
+    height: 200px;
+    padding: 10px 10px 15px 25px;
+    border: 5px solid violet;
+    border-radius: 10px;
+    margin:auto;
+}
