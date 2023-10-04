@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.receita2{
+    background-image: url(../img/rocambole-de-mussarela_1-fi\ \(1\).jpg);
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+.ingredientes2{
+    background-color: rgb(212, 181, 134);
+    margin: 20px 110px;
+    font-family: 'Courgette', cursive;
+    border-top:7px solid rgb(94, 57, 3) 
+   
+}
+
+.conteudo2{
+    background-color: rgb(212, 181, 134);
+    margin: 20px 110px;
+    font-family: 'Courgette', cursive;
+    border-top: 7px solid rgb(94, 57, 3)
+    
+}
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#links{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+#torta-de-espinafre{
+    display: block;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+}
+
+.receita1{
+    background-image: url(../img/receitas-de-torta1-de-espinafre.jpg);
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    color: rgb(228, 221, 211);
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.ingredientes{
+    background-color: rgb(212, 181, 134);
+    margin: 20px 110px;
+    font-family: 'Courgette', cursive;
+    border-top:7px solid rgb(94, 57, 3); 
+    border-radius: 10px;
+   
+}
+
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.conteudo{
+    background-color:rgb(212, 181, 134);
+    margin: 20px 110px;
+    font-family: 'Courgette', cursive;
+    border-top: 7px solid rgb(94, 57, 3);
+    border-radius: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+
+#links{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
