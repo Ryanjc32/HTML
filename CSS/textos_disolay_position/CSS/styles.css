@@ -216,7 +216,7 @@ font-size: small;
     height: 250px;
     border: 2px solid blue;
     margin-top: 100px;
-    position: absolute;
+    position: relative;
 }
 
 .bloco-absoluto-1,.bloco-absoluto-2{
@@ -236,4 +236,59 @@ font-size: small;
     right: 10px;
 }
 
+/* Posição Fixada */
 
+.bloco-fixado{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: fixed;
+    top: 100px;
+    color: white;
+
+}
+
+
+/* Posição Sticky */
+.sticky{
+    width: 150px ;
+    height: 150px;
+    background-color: firebrick;
+    color: aliceblue;
+    border:  2px solid black;
+    position: sticky;
+    top: 10px;
+    margin-left: 1500px;
+}
+
+
+/* Z-Index */
+
+/* Eu aprobeitei o style anterior do .bloco-relativo da Position relative + Absolute  */
+
+.bloco-absoluto-5, .bloco-absoluto-6, .bloco-absoluto-7{
+    width:  60px;
+    height: 60px;
+    background-color:  coral;
+    position: absolute;
+}
+
+.bloco-absoluto-5{
+   z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+.bloco-absoluto-6{
+    z-index: 1;
+    top: 15px;
+    left: 15px;
+    background-color: #754;
+}
+
+.bloco-absoluto-7{
+    z-index: 0;
+    top: 30px;
+    left: 30px;
+    background-color: rgb(114, 33, 33);
+}
