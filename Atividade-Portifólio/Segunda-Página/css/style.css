@@ -1,6 +1,7 @@
 body{
-   background-image: url(../img/background.jpg);
-   background-size: contain;
+   background-image: url(../img/teste.jpg);
+   background-size: cover;
+   /* background-position: center; */
 
 }
 
@@ -148,5 +149,5 @@ body{
     display: flex;
     justify-content: center;
     margin: auto;
-    height: 600px; 
+    height: 400px; 
 }
