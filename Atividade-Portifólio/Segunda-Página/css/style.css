@@ -1,0 +1,186 @@
+body{
+   background-image: url(../img/teste.jpg);
+   background-size: cover;
+   /* background-position: center; */
+
+}
+
+#imagem-hunter{
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px;
+    border: 5px solid rgb(0, 115, 209);
+    box-shadow: 0px 0px 50px white;
+}
+
+.faixa{
+    background-color: rgba(5, 0, 48, 0.534);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    border: 3px solid rgb(0, 115, 209);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.faixa-sinopse{
+    margin-right: 20px;
+    color: rgb(17, 0, 255);
+}
+
+.criador{
+    margin-left: 20px;
+    color: blue;
+}
+
+.faixa h1{
+    margin: 5px;
+}
+
+.sinopse{
+    background-color: rgba(5, 0, 48, 0.534);
+    color: white;
+    text-align: center;
+    margin: 20px 380px 20px 380px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 115, 209);
+}
+
+.sinopse h1{
+    margin: 2px;
+}
+
+.texto-sinopse{
+    color: white;
+    background-color: rgba(5, 0, 48, 0.664);
+    margin: 30px 250px 30px 250px;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 115, 209);
+    padding: 15px;
+}
+
+.titulo-trecho{
+    color: white;
+    background-color: rgba(5, 0, 48, 0.664);
+    margin: 20px 380px 20px 380px;
+    text-align: center;
+    border: 3px solid rgb(0, 115, 209);
+    border-radius: 20px;
+}
+.titulo-trecho h1{
+    margin: 2px;
+}
+
+.trechos-marcantes{
+    display: flex; 
+    justify-content: center;
+    
+}
+
+.frase1{
+    color: white;
+    background-color: rgba(5, 0, 48, 0.664);
+    border-radius:20px;
+    width: 30%;
+    border: 3px solid rgb(0, 115, 209);
+
+}
+
+.frase2{
+    color: white;
+    background-color: rgba(5, 0, 48, 0.664);
+    border-radius: 20px;
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid rgb(0, 115, 209);
+}
+.frase3{
+    color: white;
+    background-color: rgba(5, 0, 48, 0.664);
+    border-radius: 20px;
+    width: 30%;
+    border: 3px solid rgb(0, 115, 209);
+}
+
+.titulo-criador{
+    color:white;
+    background-color: rgba(5, 0, 48, 0.664);
+    margin: 20px 380px 20px 380px;
+    text-align: center;
+    border: 3px solid rgb(0, 115, 209);
+    border-radius: 20px;
+}
+
+.titulo-criador h1{
+    margin: 2px;
+}
+
+#img-criador{
+    display: flex;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px;
+    border: 5px solid rgb(0, 115, 209);
+}
+
+.nome-criador p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(5, 0, 48, 0.664);
+    margin:20px 480px 20px 480px; 
+    border-radius: 20px;
+}
+
+.clipes h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(5, 0, 48, 0.664);
+    margin: 20px 380px 20px 380px;
+    border-radius: 20px;
+}
+
+.clipes video{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 400px; 
+}
+
+.chat{
+    border-color: rgb(103, 102, 201) ;
+    border-radius:50%;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgba(5, 0, 48, 0.664);
+    margin :20px 450px 20px 450px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.estrela{
+    border-color: rgb(103, 102, 201) ;
+    margin-right: 95%;
+    position:sticky;
+    bottom: 15px;
+    right: 15px;
+    color: white;
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+}
