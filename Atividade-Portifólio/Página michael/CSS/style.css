@@ -200,12 +200,17 @@ span{
 .links{
     display: flex;
     justify-content: space-around;
+<<<<<<< HEAD
     background-color: rgb(103, 102, 201);
+=======
+    background-color: white;
+>>>>>>> 055060240bdb5ce364dbe71e050c7902bdabb903
     margin :20px 450px 20px 450px;
     padding: 15px;
     border-radius: 20px;
 }
 
+<<<<<<< HEAD
 .chat{
     border-color: rgb(103, 102, 201) ;
     border-radius:50%;
@@ -217,3 +222,23 @@ span{
 }
 
 
+=======
+.position-chat{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+.chat{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(72, 71, 126);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position:sticky;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+>>>>>>> 055060240bdb5ce364dbe71e050c7902bdabb903
