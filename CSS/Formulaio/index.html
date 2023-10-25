@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Primeiro Formulário -->
+    <h1>Formulários</h1>
+    <form>
+        <div>
+            <label>Nome</label>
+            <input type="text">
+        </div>
+    </form>
+
+    <!--Atributo Action e Method -->
+
+    <h1>Formulários</h1>
+    <form action="registro.php" method="get">
+        <div>
+            <label>Nome:</label>
+            <input type="text">
+        </div>
+
+        <!-- Atributo Name -->
+        <div>
+            <label>Idade:</label>
+            <input type="text" name="age">
+        </div>
+
+        <!-- Atributo Label -->
+        <div>
+            <label for="age">Idade:</label>
+            <input type="text" name="age">
+        </div>
+
+        <!-- Select -->
+
+        <div>
+            <label for="cidade">Selecione sua cidade:</label>
+            <select name="cidade">
+                <option value="São Paulo">São Paulo</option>
+                <option value="Taboão da Serra">Taboão da Serra</option>
+                <option value="Osasco">Osasco</option>
+            </select>
+        </div>
+        <!-- Selected -->
+        <div>
+            <label for="times">Quem vai ganhar a próxima copa do mundo</label>
+            <select name="times">
+                <option value="Argentina">Argentima</option>
+                <option value="França">França</option>
+                <option value="Alemanha">Alemanha</option>
+                <option value="Brasil"Selected>Brasil</option>
+            </select>
+        </div>
+
+        <!-- seleção de vários Select -->
+        <div>
+            <label for="acessorios">Selecione os acessórios do seu computador</label>
+            <select name="acessorios" multiple>
+                <option value="Mouse">Mouse</option>
+                <option value="Teclado">Teclado</option>
+                <option value="Fone-de-Ouvido">Fone de Ouvido</option>
+                <option value="Webcam">Webcam</option>
+            </select>
+    <!--Textarea  -->
+    <div>
+        <label for="feedback">Descreva seu feedback sobre o nosso site</label>
+        <textarea name="feedback"></textarea>
+    </div>
+
+    <!-- fieldset e legend -->
+    <div>
+        <fieldset>
+            <legend>Informações de Usúarios</legend>
+            <input type="text" name="nome" placeholder="Nome">
+            <input type="email" name="email" placeholder="E-mail">
+            <input type="password" name="senha" placeholder="Senha">
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </div>
+        <!-- datalist -->
+        <div>
+            <label for="livro">Selecione um livro:</label>
+            <input type="text" list="livros" name="livro">
+            <datalist id="livros">
+                <option value="Crepúsculo"></option>
+                <option value="Harry Potter e a Pedra Filosofal"></option>
+                <option value="A Hospedeira">
+                <option value="Harry Potter e o Cálice de Fogo">
+            </datalist>
+        </div>
+
+        </div>
+
+         <!-- submit -->
+         <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
