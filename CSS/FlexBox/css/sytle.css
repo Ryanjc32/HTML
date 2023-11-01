@@ -1,0 +1,12 @@
+/* Flexbox */
+body{
+    padding-bottom: 550px;
+}
+
+
+.flexbox{
+    display: flex;
+    background-color: blue;
+    color: white;
+    margin-bottom: 30px;
+}
