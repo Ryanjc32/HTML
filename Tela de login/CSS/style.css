@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.login{
+    background:linear-gradient(120deg, #045485, #00c2cb );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-conteiner{
+    min-height: 500px;
+    width: 400px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    padding: 35px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100vh;
+    width: 50vw; */
+}
+
+.login-title {
+    margin-bottom: 30px;
+    color:#045485 ;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-input{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    border: unset;
+    outline: none;
+}
+
+.login-input-borda{
+    width: 100%;
+    height: 2px;
+    background-color: #00c2cb;
+    margin-bottom: 30px;
+    transition: .3s ease-in;
+}
+/* .login-input-borda ::after{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0;
+    margin-bottom: 16px;
+    background:linear-gradient(120deg, #045485, #00c2cb );
+} */
+
+.submit{
+
+    width: 100%;
+    background:linear-gradient(120deg, #045485, #00c2cb );
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    border: unset;
+    outline: none;
+    background-size: 200%;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.recuperar-senha{
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: cornflowerblue;
+
+}
+
