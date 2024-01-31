@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    position: relative;
+}
+
+.login{
+    background: linear-gradient(117deg, #850A0A 14.49%, #000 85.12%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-conteiner{
+    width: 700px;
+    height: 637px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 4px solid #FFD900;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .login-conteiner h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+} */
+
+.login-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.link{
+    display: flex;
+    display: inline;
+    align-items: center;
+}
+
+.input{
+    width: 90%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    border: unset;
+    outline: none; 
+    margin-bottom: 20px;
+}
+
+.borda{
+    width: 90%;
+    height: 3px;
+    background: linear-gradient(90deg, #FFD900 49.5%, #000 100%);
+    margin-bottom: 30px;
+    transition: .3s ease-in;
+}
+
+.botao-logar{
+    width: 25%;
+    height: 80px;
+    background: linear-gradient(270deg, #000 0%, #DD0707 100%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: unset;
+    outline: none;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.link{
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.logo-sport{
+  
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.title-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.title-logo h1{
+    margin-left: 220px;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 1190px){
+    .logo-sport{
+        display: none;
+    } 
+}
+
+@media screen and (max-width: 620px){
+    .title-logo h1{
+        margin: 0;
+        text-align: left;
+    }
+}
+
+

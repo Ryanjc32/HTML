@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esqueci a senha</title>
+    <!-- Importação do CSS -->
+    <link rel="stylesheet" href="./css/esqueci-senha.css">
+
+    <!-- Ícone da página -->
+    <link rel="icon" href="./img/image 1.png">
+</head>
+<body>
+    <!-- Container principal -->
+    <div class="conteiner">
+        <!-- Div para o formulário de alteração de senha -->
+        <div class="formulario">
+            <!-- Div para a logo do Sport -->
+            <div class="logo"><img src="./img/sport_logo_hor-1-1.png" alt=""></div>
+            
+            <!-- Formulário de alteração de senha-->
+            <form class="form">
+                <!-- Campos de entrada para E-mail, Nova Senha e Confirmação da Nova Senha -->
+                <input class="input" type="email" name="email" placeholder="Seu e-mail">
+                <span class="borda-inferior"></span>
+                
+                <input class="input" type="password" name="nova-senha" placeholder="Nova senha">
+                <span class="borda-inferior"></span>
+                
+                <input class="input" type="password" name="confirm-senha" placeholder="Confirme a nova senha">
+                <span class="borda-inferior"></span>
+            </form>
+            
+            <!-- Botão para acionar a função de abrir alerta -->
+            <button onclick="abrirAlerta()" class="alterar">Alterar</button>
+            
+            <!-- Link para redirecionar para a página de login -->
+            <a class="login" href="./index.html">Logar-se</a>
+        </div>
+    </div>
+</body>
+
+<!-- Inclusão da biblioteca SweetAlert2 para criar alertas personalizados -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- Script JavaScript para abrir o alerta personalizado -->
+<script>
+    function abrirAlerta(){
+        // Função que utiliza a biblioteca SweetAlert2 para criar um alerta personalizado
+        Swal.fire({
+            icon: "error",
+            title: "A nova senha não pode ser a mesma que a anterior!",
+        });
+    }
+</script>
+
+</html>

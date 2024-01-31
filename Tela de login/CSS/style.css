@@ -1,88 +1,109 @@
+/* pseudo-classe */
+:root{
+    --input-linear: linear-gradient(120deg, #045485, #00c2cb);
+    --input-buttom: linear-gradient(120deg, #045485, #00c2cb, #045485);
+    --cor-title: #045485;
+    --height: 2px;
+}
+ 
 body{
     margin: 0;
     font-family: sans-serif;
 }
-
+ 
 .login{
-    background:linear-gradient(120deg, #045485, #00c2cb );
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* Dêgrade = Gradient */
+    background: var(--input-linear);
 }
-
-.login-conteiner{
+ 
+.login-container{
     min-height: 500px;
     width: 400px;
     background-color: white;
     box-sizing: border-box;
+    padding: 35px;
     border-radius: 8px;
     display: flex;
-    padding: 35px;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* height: 100vh;
-    width: 50vw; */
 }
-
-.login-title {
+ 
+.login-title{
     margin-bottom: 30px;
-    color:#045485 ;
+    color: var(--cor-title);
 }
-
-.formulario{
+ 
+.login-form{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
-
+ 
 .login-input{
     width: 100%;
-    height: 40px;
+    height: 48px;
     box-sizing: border-box;
-    padding-left: 5px;
+    padding-left: 8px;
     border: unset;
     outline: none;
+ 
 }
-
-.login-input-borda{
+ 
+.login-input-border{
     width: 100%;
-    height: 2px;
+    height: var(--height);
     background-color: #00c2cb;
     margin-bottom: 30px;
     transition: .3s ease-in;
 }
-/* .login-input-borda ::after{
-    content: '';
+ 
+.login-input-border::after{
+    content:'';
     display: block;
-    height: 5px;
+    height: 3px;
     width: 0;
     margin-bottom: 16px;
-    background:linear-gradient(120deg, #045485, #00c2cb );
-} */
-
-.submit{
-
+    background: var(--input-linear);
+    transition: .3s ease-in-out;
+}
+ 
+/* efeito gradiente */
+.login-input:focus + .login-input-border::after{
+width: 100%;
+}
+ 
+ 
+.login-submit{
     width: 100%;
-    background:linear-gradient(120deg, #045485, #00c2cb );
     height: 50px;
-    border-radius: 7px;
-    margin-bottom: 10px;
     border: unset;
     outline: none;
-    background-size: 200%;
+    background: var(--input-buttom);
     color: white;
+    background-size: 200%;
+    margin-bottom: 32px;
     font-size: 16px;
+    border-radius: 4px;
     font-weight: bold;
-    margin-top: 20px;
+    cursor: pointer;
+    transition: .5s ease;
 }
+ 
+/* efeito de movimento de background para a direita */
+.login-submit:hover{
+background-position: right;
+}
+ 
 .recuperar-senha{
     font-size: 12px;
     text-decoration: none;
     font-weight: bold;
-    color: cornflowerblue;
-
+    color:cornflowerblue;
 }
 

@@ -1,0 +1,135 @@
+/* Importação de fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* margem da página zero e definindo a fonte principal como "Roboto Condensed" */
+body{
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Container flexível centralizado */
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Classe para o fundo da página */
+.fundo{
+    position: relative; 
+}
+
+/* Fundo cinza com uma imagem de plano de fundo*/
+.fundo-cinza{
+    width: 100vw;
+    height: 100vh;
+    background-color: #303030;
+    background-image: url(../img/SPORT\ CLUBE\ RECIFE\ \(2\).png);
+    background-repeat: no-repeat;
+}
+
+/* Fundo vermelho com gradiente linear*/
+.fundo-vermelho{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(153.2deg, rgba(255, 255, 255, 0) 50.45%, rgb(78, 16, 16) 50.52%);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Estilo para o formulário de cadastro */
+.cadastro{
+    position: absolute;
+    width: 650px;
+    min-height: 677px;
+    border-radius: 20px;
+    border: 4px solid #FFD900;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 40px;
+    margin: 10px 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo para a logo do Sport */
+.logo-sport{
+    width: 300px;
+    height: 167px;
+    background-image: url(../img/sport_logo_hor-1-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+
+/* Estilo para o formulário dentro do cadastro */
+.cadastro-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo para os inputs */
+.input{
+    width: 90%;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+/* Linha inferior estilizada para os inputs */
+.borda-inferior{
+    width: 92%;
+    height: 3px;
+    background: linear-gradient(90deg, #FFD900 49.5%, #000 100%);
+    margin-bottom: 20px;
+}
+
+/* Estilo para o botão de cadastrar */
+.cadastrar{
+    width: 215px;
+    height: 91px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(270deg, #000 0%, #DD0707 100%);
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Estilo para o link da tela de login */
+.login{
+    color: #000;
+    font-family: "Roboto Condensed";
+}
+
+
+.login:hover {
+    text-decoration: none; /* Remove o sublinhado ao passar o mouse */
+}
+
+/* Media queries para tornar responsivo em diferentes tamanhos de tela */
+@media screen and (max-width: 680px){
+    .cadastro{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 510px){
+    .cadastro{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 410px){
+    .cadastro{
+        width: 320px;
+    }
+}
